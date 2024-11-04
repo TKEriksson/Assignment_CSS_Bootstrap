@@ -1,0 +1,25 @@
+.pageContent {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blueBold {
+  color: blue;
+  font-weight: bold;
+}
+
+/* every odd nth child gets red color.  */
+.alterColorList :nth-child(odd) {
+  color: red;
+}
+
+/* every even nth child gets green color. */
+.alterColorList :nth-child(even) {
+  color: green;
+}
+
+/* Need to set the OL to prevent the ol to inherit the alter-coloring.  */
+aside ol li {
+  color: #000 !important;
+}
